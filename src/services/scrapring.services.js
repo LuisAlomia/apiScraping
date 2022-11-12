@@ -1,7 +1,7 @@
-const initScarpingWeb = require("../utils/scraper");
+const initScraping = require("../utils/scrapingCheeiro");
 
 async function scraping(search) {
-  const data = await initScarpingWeb(search);
+  const data = await initScraping(search);
   return data;
 }
 
